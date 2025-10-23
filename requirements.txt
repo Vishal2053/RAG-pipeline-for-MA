@@ -6,6 +6,8 @@ langchain-text-splitters==0.2.2
 langchain-groq==0.1.6
 transformers==4.43.2
 sentence-transformers==3.0.1
-unstructured
-unstructured[pdf]
+unstructured==0.15.0
+pdfminer.six==20221105
+Flask==3.0.3
+gunicorn==21.2.0
 python-dotenv==1.0.1
